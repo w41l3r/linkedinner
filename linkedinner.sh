@@ -17,7 +17,7 @@ fi
 if ! dpkg -l | grep -i theharvester >/dev/null
 then
 	echo "TheHarvester não está instalado."
-	echo -n "Deseja instalar? (s/N) "
+	echo -n "Deseja instalar? (S/n) "
 	read RESP
 	case $RESP in
 	s|S) installHarvester
