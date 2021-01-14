@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function installHarvester() {
-	sudo apt install -y theHarvester
+	sudo apt install -y theharvester
         if [ $? -ne 0 ];then
              echo "Falha na instalação do theHarvester! Saindo..."
              exit 1
